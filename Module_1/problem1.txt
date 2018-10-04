@@ -1,0 +1,70 @@
+       
+	QUICK-FIND
+
+	0	1	2	3	4	5	6	7	8	9
+	0	1	2	3	4	5	6	7	8	0  (9 to 0 connectivity)
+
+	
+	0	1	2	4	4	5	6	7	8	0  (3 to 4 connectivity)
+
+	
+	0	1	2	4	4	8	6	7	8	0  (5 to 8 connectivity)
+
+	
+	0	1	2	4	4	8	6	2	8	0  (7 to 2 connectivity)
+
+	
+	0	1	1	4	4	8	6	1	8	0  (2 to 1 connectivity)
+
+	
+	0	1	1	4	4	1	6	1       1       0  (5 TO 7 Connectivity)
+
+	4	1	1	4	4	1	6	1	1	4  (0 to 3 connectivity)
+
+
+	1	1	1	1	1	1	6	1	1	1  (4 to 2 connectivity)
+
+
+	quick-union
+	
+	0	1	2	3	4	5	6	7	8	9
+	0	1	2	3	4	5	6	7	8	0  (9 to 0 connectivity)
+
+	0	1	2	4	4	5	6	7	8	0  (3 to 4 connectivity)
+
+	0	1	2	4	4	8	6	7	8	0  (5 to 8 connectivity)
+
+
+	0	1	7	4	4	8	6	7	8	0  (7 to 2 connectivity)
+	
+
+	0	1	1	4	4	8	6	7	8	0  (2 to 1 connectivity)	
+
+	0	1	1	4	4	8	6	7	1	0  (5 TO 7 Connectivity)	
+
+	4	1	1	4	4	8	6	7	1	0  (0 to 3 connectivity)
+
+	4	1	1	4	1	8	6	7	1	0  (4 to 2 connectivity)	
+
+	weighted quick-union
+
+	0	1	2	3	4	5	6	7	8	9
+	0	1	2	3	4	5	6	7	8	0  (9 to 0 connectivity)
+
+	0	1	2	4	4	5	6	7	8	0  (3 to 4 connectivity)
+
+	0	1	2	4	4	8	6	7	8	0  (5 to 8 connectivity)
+
+	0	1	2	4	4	8	6	2	8	0  (7 to 2 connectivity)
+	
+	0	1	1	4	4	8	6	2	8	0  (2 to 1 connectivity)	
+
+	0	1	1	4	4	8	6	2	1	0  (5 TO 7 Connectivity)	
+
+	4	1	1	4	4	8	6	2	1	4  (0 to 3 connectivity)
+
+	4	1	1	1	1	8	6	2	1	4  (4 to 2 connectivity)
+
+
+	weighted quick -union path
+	0	1	2	3	4	5	6	7	8	9		
