@@ -2,7 +2,7 @@ package Module2;
 
 import java.util.Scanner;
 
-public class Solution3sum {   
+public class Solution {   
 	 public static int count(int[] a)    { 
 		 // Count triples that sum to 0.      
 		 int N = a.length;     
