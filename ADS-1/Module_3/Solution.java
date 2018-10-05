@@ -1,28 +1,36 @@
-
-
+import java.util.Arrays;
 import java.util.Scanner;
 
-public class Solution{   
-	 public  int count(int[] a){ 
-		 // Count triples that sum to 0.      
-		 int N = a.length;     
-		 int cnt = 0;    
-		 for (int i = 0; i < N; i++)        
-			 for (int j = i+1; j < N; j++)            
-				 for (int k = j+1; k < N; k++)               
-					 if (a[i] + a[j] + a[k] == 0)                  
-						 cnt++;     
-		 return cnt;   
-		 }  
-	 public static void main(String[] args)    { 
-		 Scanner scn=new Scanner(System.in);
-		 int n=scn.nextInt();
-		 int[] a = new int[n]; 
-		 Solution ss=new Solution();
-		 for(int i=0;i<n;i++) {
-			 a[i]=scn.nextInt();
-		 }
-		 System.out.println(ss.count(a));   
-	 }
-}
+public class Solution {
 
+	 public static int count(int[] arr) {
+	        int n = arr.length;
+	        Arrays.sort(arr);
+	        int count = 0;
+	        for (int i = 0; i < n; i++) {
+	            for (int j = i+1; j < n; j++) {
+	                int bin = Arrays.binarySearch(arr, -(arr[i] + arr[j]));
+	                if (bin > j) 
+	                {
+	                	//System.out.println(bin);
+	                	count=count+1;
+	                }
+	                	
+	            }
+	        }
+	        return count;
+	    } 
+	 public static void main(String[] args)  
+	 { 
+		 	int n;
+			Scanner scan = new Scanner (System.in);
+	     	n=scan.nextInt();
+	        int[] a = new int[n];
+	        for(int i=0;i<n;i++)
+	        {
+			a[i]=scan.nextInt();
+	        }
+	        int count = count(a);
+	        System.out.println(count);
+	    } 
+}
