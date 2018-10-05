@@ -1,0 +1,23 @@
+Give the output printed by java Stack for the input (where "-" means pop) it was - the best - of times - - - it was - the - -
+
+	Word		+/-		Stack
+	it		+		it
+	was		+		was(earise)
+	-		-		
+	the		+		the (earise)
+	best		+		best(earise)
+	-		-		
+	of		+		of   (earise)	
+	times		+		times(earise)
+	-		-		
+	-		-		
+	-		-		
+	it		+		it (earise)
+	was		+		was(earise)
+	-		-		
+	the		+		the(earise)
+	-		-		
+	-		-			
+
+
+output : it		
