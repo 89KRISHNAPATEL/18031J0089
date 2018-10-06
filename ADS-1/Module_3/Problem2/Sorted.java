@@ -56,7 +56,7 @@ for(i=0;k<a.length&&m<b.length;i++)
    int g=i;
      for(i=0;i<g;i++)
      {
-	   System.out.print(c[i]+", "+" ");
+	   System.out.print(c[i]+",");
      }
 }
 }
