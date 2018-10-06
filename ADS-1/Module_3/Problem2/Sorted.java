@@ -20,14 +20,14 @@ int []c=new int[n1+n2];
 	    {
 	      System.out.println("enter the elments of an array1");
 	      a[i]=sc.nextInt();
-sc.useDelimiter("//D");
+sc.useDelimiter("[\\s,\r\n]+");
 	     // System.out.println(a[i]);
 	     }
        for(i=0;i<n2;i++)
 	    {
               System.out.println("enter the elments of an array2");
 	      b[i]=sc.nextInt();
-sc.useDelimiter("//D");
+sc.useDelimiter("[\\s,\r\n]+");
 	    }
 		System.out.println(n1+n2);
 for(i=0;k<a.length&&m<b.length;i++)
