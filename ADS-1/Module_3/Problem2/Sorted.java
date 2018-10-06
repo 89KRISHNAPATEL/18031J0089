@@ -7,9 +7,9 @@ public static void main(String args[])
 int k=0,m=0,i;
 Scanner sc=new Scanner(System.in);
 
-System.out.println("size of array-1");
+//System.out.println("size of array-1");
 int n1=sc.nextInt();
-System.out.println("size of array-2");
+//System.out.println("size of array-2");
 int n2=sc.nextInt();
 int []a=new int[n1];
 int []b=new int[n2];
@@ -56,7 +56,11 @@ for(i=0;k<a.length&&m<b.length;i++)
    int g=i;
      for(i=0;i<g;i++)
      {
-	   System.out.print(c[i]+",");
+	   System.out.print(c[i]);
+	   if(i!=g)
+	   {
+		   System.out.println(",");
+	   }
      }
 }
 }
