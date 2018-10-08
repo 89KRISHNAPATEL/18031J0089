@@ -1,0 +1,41 @@
+			ADS Week1 pc-1
+
+1.Nlog(N)
+
+2.	Word		dequeue/enqueue		queue
+ 	cricket		+			cricket(earise)
+	-		-			
+	is		+			is(earise)
+	-		-			
+	a		+			a(earise)
+	hobby		+			hobby(earise)	
+	-		-			
+	-		-			
+	of 		+			of(earise)
+	-		-			
+	-		-				
+	mentor		+			mentor(earise)
+	-		-			
+	deepak		+			deepak
+
+3.  a,b,c
+
+4.  1	 1	1	1	1	1	1	1	1	1
+    minimum size =50;
+    maximum size =90;
+
+5.	Word		push/pop		stack
+ 	{		push			{  size-1
+	[		push			[  size-2	
+	]		pop			   size-1
+	(		push			(  size-2
+	)		pop			   size-1
+	}		pop			   size-0
+
+			balanced.
+
+6.
+7.
+8.N
+9.N^2
+10.   1	  1	1	1	1	1	1	1	1	1
