@@ -46,7 +46,7 @@ public class SolutionT {
 		// System.out.println(al);
 		String st = "" + al.get(0).Tname;
 		for (int i = 1; i < al.size(); i++) {
-			st = st + ", " + al.get(i).Tname;
+			st = st + ","+ al.get(i).Tname;
 			
 		}
 		System.out.print(st);
