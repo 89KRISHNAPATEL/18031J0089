@@ -46,4 +46,4 @@ bottom-up merge sort :
 
 32  7
 
-37			
+39			
