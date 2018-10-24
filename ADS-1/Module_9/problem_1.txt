@@ -1,0 +1,18 @@
+E A S Y Q U E S T I O N are sorted with top-down mergesort
+
+
+	1.E  A  S  Y  Q  U  E  S  T  I  O  N
+
+	2.E A S Y Q U     E S T I O N
+	
+	3.E A S  Y Q U    E S T   I O N
+
+	4.E A   S   Y Q  U   E S  T    I O  N
+
+	5.AE  S    QY  U     ES  T     IO  N
+
+	6.AES   QUY    EST     INO
+
+	7.AEQUSY   EINOST
+
+	8.A E E I N O Q S S T U Y

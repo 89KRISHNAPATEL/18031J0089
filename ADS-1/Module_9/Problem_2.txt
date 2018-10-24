@@ -1,0 +1,49 @@
+E A S Y Q U E S T I O N are sorted with bottom-up mergesort.
+
+
+	1.E  A  S  Y  Q  U  E  S  T  I  O  N
+
+	2.E A   S Y   Q U   E S   T I   O N
+
+	3.A E   S Y  Q U    E S   I T  N O
+
+	4. A E S Y   Q U E S    I T N O
+
+	5. A E S Y  E Q U S   I N O T
+
+	6.A E E Q U S S Y    I N O T
+
+	7.A E E I N O Q U S S T Y
+
+
+subarray sizes in the merges performed by both the top-down and the bottom-up merge sort algorithms, for N = 39.
+
+top-down :
+
+					39
+
+  19									20
+
+9	10							10	     10
+
+5|4   5|5							 5|5      5|5
+
+3|2  2|2  3|2  3|2      				3|2 3|2 3|2 3|2   				
+2|1 2 2|2   2|1 2 2|1 2			2|1 2 2|1 2 2|1 2|1 2 
+
+
+
+bottom-up merge sort :
+
+					39
+2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  1   
+
+4  4   4   4   4    4    4   4    4    3
+
+8     8      8    8    7
+
+16   16  7
+
+32  7
+
+37			
