@@ -1,0 +1,56 @@
+  Suppose that the sequence P R I O * R * * I * T * Y * * * Q U E * * * U * E 
+  (where a letter means insert and an asterisk means remove the maximum) is applied
+  to an initially empty priority queue. Give the sequence of values returned by
+  remove the maximum operations.
+
+ letter		+/-		stack
+
+ p		+		P(REMOVE)
+
+ R		+		R(REMOVE)
+ 
+ I		+		I(REMOVE)
+ 
+ O		+		O(REMOVE)
+ 
+ *		-		
+
+ R		+		R(REMOVE)
+
+ *		-		
+
+ *		-		
+
+ I		+		I(REMOVE)
+
+ *		-		
+
+ T		+		T(REMOVE)
+
+ *		-		
+
+ Y		+		Y(REMOVE)
+	
+ *		-		
+
+ *		-		
+
+ *		-	
+
+ Q		+		Q
+
+ U		+		U
+
+ E		+		E
+
+ *		-		
+
+ *		-		
+
+ *		-	
+
+ U		+		U
+
+ *		-		
+
+ E		+		E(THE FINAL ELEMENT OF THE PRIORITY QUEUE)
