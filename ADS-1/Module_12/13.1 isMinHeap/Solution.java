@@ -35,17 +35,21 @@ public class Solution {
 			for (int k = 0; k < m; k++) {
 				String st = scn.next();
 				String sp[] = st.split(",");
+				Double b[]=new Double[sp.length];
+				if(b.length==0) {
+					System.out.println("false");
+				}
 				int n = sp.length;
 				boolean flag = true;
 				for (int i = 0; i < n / 2 - 1; i++) {
 					// System.out.println("true");
 					int l = 2 * i + 1; // left = 2*i + 1
 					int r = 2 * i + 2; // right = 2*i + 2
-					if (l < n &&Integer.parseInt(sp[i])  > Integer.parseInt(sp[l])) {
+					if (l < n &&Double.parseDouble((sp[i]))  > Double.parseDouble((sp[l]))) {
 						flag = false;
 						break;
 					}
-					if (r < n && Integer.parseInt(sp[i])>Integer.parseInt(sp[r])) {
+					if (r < n && Double.parseDouble(sp[i]) >Double.parseDouble(sp[r])) {
 						flag = false;
 						break;
 					}
