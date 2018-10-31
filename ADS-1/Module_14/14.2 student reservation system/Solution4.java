@@ -28,11 +28,11 @@ class Student implements Comparable<Student> {
 					String sp2[] = st.dob.split("-");
 					if (sp1[2].equals(sp1[2])) {
 						if (sp1[1].equals(sp1[1])) {
-							return Integer.parseInt(sp1[0]) - Integer.parseInt(sp2[0]);
+							return Integer.parseInt(sp2[0]) - Integer.parseInt(sp1[0]);
 						}
-						return Integer.parseInt(sp1[1]) - Integer.parseInt(sp2[1]);
+						return Integer.parseInt(sp2[1]) - Integer.parseInt(sp1[1]);
 					}
-					return Integer.parseInt(sp1[2]) - Integer.parseInt(sp2[2]);
+					return Integer.parseInt(sp2[2]) - Integer.parseInt(sp1[2]);
 				}
 				return st.m2 - this.m2;
 			}
