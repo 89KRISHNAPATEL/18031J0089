@@ -1,0 +1,484 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+divya,99,ST
+Deepak,98,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
+riya,83,Open
+Aditya,80,ST
+Ajay,76,Open
+Arjun,75,Open
+rahul,73,Open
+priya,72,SC
+shyam,71,ST
+Priyanka,70,Open
+varsha,66,BC
+yash,61,BC
+Abhishek,60,BC
+Ankit,58,BC
+vani,50,Open
+Aishwarya,48,Open
+Manoj,39,SC
+Anjali,38,SC
+Aryan,32,ST
+Shreya,23,SC
+
+divya,99,ST
+Deepak,98,Open
+Ira,93,ST
+tanvi,90,BC
+Aditya,80,ST
+priya,72,SC
+
+Your Output: 
+divya,99,ST
+Deepak,98,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
+riya,83,Open
+Aditya,80,ST
+Ajay,76,Open
+Arjun,75,Open
+rahul,73,Open
+priya,72,SC
+shyam,71,ST
+Priyanka,70,Open
+varsha,66,BC
+yash,61,BC
+Abhishek,60,BC
+Ankit,58,BC
+vani,50,Open
+Aishwarya,48,Open
+Manoj,39,SC
+Anjali,38,SC
+Aryan,32,ST
+Shreya,23,SC
+
+divya,99,ST
+Deepak,98,Open
+Ira,93,ST
+tanvi,90,BC
+Aditya,80,ST
+priya,72,SC
+
+----------------------------------------
+########## Testcase 1: Passed ##########
+Expected Output: 
+divya,99,ST
+Ishita,99,Open
+Deepak,98,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
+mahesh,87,Open
+riya,83,Open
+Aditya,80,ST
+Ajay,76,Open
+Arjun,75,Open
+rahul,73,Open
+priya,72,SC
+shyam,71,ST
+ROHIT,70,SC
+Amit,70,Open
+Priyanka,70,Open
+Tanya,66,BC
+varsha,66,BC
+yash,61,BC
+Abhishek,60,BC
+Ankit,58,BC
+Gayatri,58,SC
+vani,50,Open
+Sneha,50,SC
+Aishwarya,48,Open
+Manoj,39,SC
+Anjali,38,SC
+Aryan,32,ST
+Shreya,23,SC
+
+divya,99,ST
+Ishita,99,Open
+Deepak,98,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
+Aditya,80,ST
+priya,72,SC
+
+Your Output: 
+divya,99,ST
+Ishita,99,Open
+Deepak,98,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
+mahesh,87,Open
+riya,83,Open
+Aditya,80,ST
+Ajay,76,Open
+Arjun,75,Open
+rahul,73,Open
+priya,72,SC
+shyam,71,ST
+ROHIT,70,SC
+Amit,70,Open
+Priyanka,70,Open
+Tanya,66,BC
+varsha,66,BC
+yash,61,BC
+Abhishek,60,BC
+Ankit,58,BC
+Gayatri,58,SC
+vani,50,Open
+Sneha,50,SC
+Aishwarya,48,Open
+Manoj,39,SC
+Anjali,38,SC
+Aryan,32,ST
+Shreya,23,SC
+
+divya,99,ST
+Ishita,99,Open
+Deepak,98,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
+Aditya,80,ST
+priya,72,SC
+
+----------------------------------------
+########## Testcase 2: Passed ##########
+Expected Output: 
+divya,99,Open
+tanvi,90,Open
+Aditya,80,ST
+priya,76,SC
+Ajay,76,Open
+rahul,73,Open
+Amit,70,Open
+Priyanka,70,Open
+Tanya,66,BC
+Abhishek,60,BC
+
+divya,99,Open
+Aditya,80,ST
+priya,76,SC
+
+Your Output: 
+divya,99,Open
+tanvi,90,Open
+Aditya,80,ST
+priya,76,SC
+Ajay,76,Open
+rahul,73,Open
+Amit,70,Open
+Priyanka,70,Open
+Tanya,66,BC
+Abhishek,60,BC
+
+divya,99,Open
+Aditya,80,ST
+priya,76,SC
+
+----------------------------------------
+########## Testcase 3: Passed ##########
+Expected Output: 
+divya,99,Open
+tanvi,90,ST
+Aditya,80,Open
+priya,76,SC
+Ajay,76,Open
+rahul,73,Open
+Amit,70,Open
+Priyanka,70,Open
+Tanya,66,BC
+Abhishek,60,BC
+
+divya,99,Open
+tanvi,90,ST
+Aditya,80,Open
+priya,76,SC
+Ajay,76,Open
+Tanya,66,BC
+
+Your Output: 
+divya,99,Open
+tanvi,90,ST
+Aditya,80,Open
+priya,76,SC
+Ajay,76,Open
+rahul,73,Open
+Amit,70,Open
+Priyanka,70,Open
+Tanya,66,BC
+Abhishek,60,BC
+
+divya,99,Open
+tanvi,90,ST
+Aditya,80,Open
+priya,76,SC
+Ajay,76,Open
+Tanya,66,BC
+
+----------------------------------------
+########## Testcase 4: Passed ##########
+Expected Output: 
+divya,99,Open
+tanvi,99,Open
+Ishita,99,Open
+Deepak,98,Open
+Ira,93,Open
+Raj,87,Open
+mahesh,87,Open
+riya,83,Open
+Aditya,80,Open
+priya,76,Open
+Ajay,76,Open
+Amit,76,Open
+Arjun,75,Open
+rahul,73,Open
+Tanya,72,Open
+ROHIT,70,Open
+Priyanka,70,Open
+varsha,66,Open
+yash,61,Open
+Abhishek,60,Open
+Ankit,58,Open
+Gayatri,58,Open
+vani,50,Open
+Sneha,50,Open
+Aishwarya,48,Open
+Manoj,39,Open
+Anjali,38,Open
+Aryan,32,Open
+shyam,23,Open
+Shreya,23,Open
+
+divya,99,Open
+tanvi,99,Open
+Ishita,99,Open
+Deepak,98,Open
+Ira,93,Open
+Raj,87,Open
+mahesh,87,Open
+riya,83,Open
+Aditya,80,Open
+priya,76,Open
+Ajay,76,Open
+Amit,76,Open
+Arjun,75,Open
+
+Your Output: 
+divya,99,Open
+tanvi,99,Open
+Ishita,99,Open
+Deepak,98,Open
+Ira,93,Open
+Raj,87,Open
+mahesh,87,Open
+riya,83,Open
+Aditya,80,Open
+priya,76,Open
+Ajay,76,Open
+Amit,76,Open
+Arjun,75,Open
+rahul,73,Open
+Tanya,72,Open
+ROHIT,70,Open
+Priyanka,70,Open
+varsha,66,Open
+yash,61,Open
+Abhishek,60,Open
+Ankit,58,Open
+Gayatri,58,Open
+vani,50,Open
+Sneha,50,Open
+Aishwarya,48,Open
+Manoj,39,Open
+Anjali,38,Open
+Aryan,32,Open
+shyam,23,Open
+Shreya,23,Open
+
+divya,99,Open
+tanvi,99,Open
+Ishita,99,Open
+Deepak,98,Open
+Ira,93,Open
+Raj,87,Open
+mahesh,87,Open
+riya,83,Open
+Aditya,80,Open
+priya,76,Open
+Ajay,76,Open
+Amit,76,Open
+Arjun,75,Open
+
+----------------------------------------
+########## Testcase 5: Failed ##########
+Expected Output: 
+divya,99,ST
+Deepak,99,Open
+Ishita,99,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
+mahesh,87,BC
+riya,83,Open
+Aditya,80,ST
+Ajay,76,Open
+Amit,76,Open
+Arjun,75,Open
+rahul,73,Open
+priya,72,SC
+shyam,71,ST
+ROHIT,70,SC
+Priyanka,70,Open
+Tanya,66,SC
+varsha,66,BC
+yash,61,Open
+Abhishek,60,SC
+Ankit,58,SC
+Gayatri,58,SC
+vani,50,Open
+Sneha,50,SC
+Aishwarya,48,Open
+Anjali,38,SC
+Manoj,32,SC
+Aryan,32,ST
+Shreya,23,SC
+
+divya,99,ST
+Deepak,99,Open
+Ishita,99,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
+mahesh,87,BC
+riya,83,Open
+Aditya,80,ST
+Ajay,76,Open
+Amit,76,Open
+Arjun,75,Open
+rahul,73,Open
+priya,72,SC
+varsha,66,BC
+
+Your Output: 
+divya,99,ST
+Ishita,99,Open
+Deepak,99,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
+mahesh,87,BC
+riya,83,Open
+Aditya,80,ST
+Amit,76,Open
+Ajay,76,Open
+Arjun,75,Open
+rahul,73,Open
+priya,72,SC
+shyam,71,ST
+ROHIT,70,SC
+Priyanka,70,Open
+Tanya,66,SC
+varsha,66,BC
+yash,61,Open
+Abhishek,60,SC
+Ankit,58,SC
+Gayatri,58,SC
+vani,50,Open
+Sneha,50,SC
+Aishwarya,48,Open
+Anjali,38,SC
+Manoj,32,SC
+Aryan,32,ST
+Shreya,23,SC
+
+divya,99,ST
+Ishita,99,Open
+Deepak,99,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
+mahesh,87,BC
+riya,83,Open
+Aditya,80,ST
+Amit,76,Open
+Ajay,76,Open
+Arjun,75,Open
+priya,72,SC
+shyam,71,ST
+varsha,66,BC
+
+----------------------------------------
+Result: 5/6 testcases passed.
+Starting audit...
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:5: Missing a Javadoc comment. [JavadocType]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:6:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:6:16: Variable 'name' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:6:22: Variable 'dob' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:7:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:7:13: Variable 'm1' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:7:17: Variable 'm2' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:7:21: Variable 'm3' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:7:25: Variable 'tot' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:8:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:8:16: Variable 'cat' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:10:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:10:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:10:24: Parameter data should be final. [FinalParameters]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:10:35: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:14:49: '3' is a magic number. [MagicNumber]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:15:49: '4' is a magic number. [MagicNumber]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:16:50: '5' is a magic number. [MagicNumber]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:17:33: '6' is a magic number. [MagicNumber]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:20:30: Parameter st should be final. [FinalParameters]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:24:51: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:25:51: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:28: Line is longer than 80 characters (found 115). [LineLength]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:30: Line is longer than 80 characters (found 107). [LineLength]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:32: Line is longer than 80 characters (found 99). [LineLength]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:34:45: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:34:46: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:41:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:46: Missing a Javadoc comment. [JavadocType]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:47:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:47:28: Variable 'ast' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:49:9: Class 'SeatsAllotment' looks like designed for extension (can be subclassed), but the method 'catfil' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeatsAllotment' final or making the method 'catfil' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:49:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:49:28: Parameter cat should be final. [FinalParameters]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:49:40: Parameter nc should be final. [FinalParameters]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:49:48: Parameter cp should be final. [FinalParameters]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:49:56: Parameter op should be final. [FinalParameters]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:51:20: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:51:32: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:51:57: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:54: 'while' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:61:43: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:63: 'while' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:69:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:69:33: Parameter args should be final. [FinalParameters]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:84: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\GitHub1\DSA\14.2 student reservation system\SeatsAllotment.java:93: 'for' construct must use '{}'s. [NeedBraces]
+Audit done.
+Checkstyle ends with 48 errors.
+
+
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	modified:   output.txt
+	deleted:    ../Assignment-1/Solution.java
+
+Untracked files:
+	../CodeCamp_Percolation/
+
+no changes added to commit
+
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
