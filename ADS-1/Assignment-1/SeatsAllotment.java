@@ -1,5 +1,3 @@
-package pc_3;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
@@ -18,7 +16,6 @@ class Student implements Comparable<Student> {
 		this.tot = Integer.parseInt(data[5]);
 		this.cat = data[6];
 	}
-
 	@Override
 	public int compareTo(Student st) {
 		if (st.tot == this.tot) {
@@ -28,13 +25,13 @@ class Student implements Comparable<Student> {
 					String sp2[] = st.dob.split("-");
 					if (sp1[2].equals(sp1[2])) {
 						if (sp1[1].equals(sp1[1])) {
-							return Integer.parseInt(sp1[0]) - Integer.parseInt(sp2[0]);
+							return Integer.parseInt(sp2[0]) - Integer.parseInt(sp1[0]);
 						}
-						return Integer.parseInt(sp1[1]) - Integer.parseInt(sp2[1]);
+						return Integer.parseInt(sp2[1]) - Integer.parseInt(sp1[1]);
 					}
-					return Integer.parseInt(sp1[2]) - Integer.parseInt(sp2[2]);
+					return Integer.parseInt(sp2[2]) - Integer.parseInt(sp1[2]);
 				}
-				return st.m2 - this.m2;
+				return st.m2-this.m2;
 			}
 			return st.m3 - this.m3;
 		}
@@ -46,7 +43,7 @@ class Student implements Comparable<Student> {
 	}
 }
 
-public class Solution4 {
+public class SeatsAllotment {
 	ArrayList<Student> ast = new ArrayList<Student>();
 
 	public void catfil(String cat, int nc, int cp, int op) {
@@ -54,16 +51,16 @@ public class Solution4 {
 		for(int i = cp;i < ast.size() && j < nc;i++) {
 			if (ast.get(i).cat.equals(cat)) {
 				Student st1 = ast.remove(i);
-				while (k < cp && st1.tot < ast.get(k).tot)
+				while (k < cp && st1.tot <= ast.get(k).tot)
 					k++;
 				ast.add(k++, st1);
 				cp++;
 				j++;
 			}
 		}
-		for (k = op; j < nc; cp++, j++) {
+		for (k = op; j < nc; cp++,j++) {
 			Student st1 = ast.remove(cp);
-			while (st1.tot < ast.get(k).tot)
+			while (k < cp && st1.tot <= ast.get(k).tot)
 				k++;
 			ast.add(k++, st1);
 		}
@@ -72,7 +69,7 @@ public class Solution4 {
 	public static void main(String[] args) {
 		int tst, tse, op, bc, st, scs;
 		Scanner sc = new Scanner(System.in);
-		Solution4 sa = new Solution4();
+		SeatsAllotment sa = new SeatsAllotment();
 		tst = sc.nextInt();
 		tse = sc.nextInt();
 		op = sc.nextInt();
@@ -97,4 +94,3 @@ public class Solution4 {
 			System.out.println(sa.ast.get(i));
 	}
 }
-
