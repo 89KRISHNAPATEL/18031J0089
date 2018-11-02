@@ -1,0 +1,209 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+1
+
+Your Output: 
+1
+
+----------------------------------------
+########## Testcase 1: Passed ##########
+Expected Output: 
+6
+5
+7
+2
+
+Your Output: 
+6
+5
+7
+2
+
+----------------------------------------
+########## Testcase 2: Passed ##########
+Expected Output: 
+null
+7
+
+Your Output: 
+null
+7
+
+----------------------------------------
+Result: 3/3 testcases passed.
+Starting audit...
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:6: Missing a Javadoc comment. [JavadocType]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:6:11: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:7:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:7:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:7:16: Name 'Name' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:7:16: Variable 'Name' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:8:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:8:16: Variable 'author' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:9:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:9:16: Variable 'price' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:10:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:10:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:10:21: Parameter name should be final. [FinalParameters]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:10:34: Parameter author should be final. [FinalParameters]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:10:41: 'author' hides a field. [HiddenField]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:10:49: Parameter price should be final. [FinalParameters]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:10:56: 'price' hides a field. [HiddenField]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:15: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:18: Missing a Javadoc comment. [JavadocType]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:19:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:20:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:20:21: Variable 'key' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:21:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:21:20: Variable 'value' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:22:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:22:21: Variable 'left' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:22:26: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:22:26: Variable 'right' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:23:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:23:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:23:21: Parameter key should be final. [FinalParameters]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:23:26: 'key' hides a field. [HiddenField]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:23:30: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:23:30: Parameter value should be final. [FinalParameters]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:23:34: 'value' hides a field. [HiddenField]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:24:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:25:25: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:25:26: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:26:27: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:26:28: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:30: Missing a Javadoc comment. [JavadocType]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:31:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:31:14: Variable 'root' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:32:9: Class 'BinaryTree' looks like designed for extension (can be subclassed), but the method 'put' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BinaryTree' final or making the method 'put' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:32:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:32:25: Parameter key should be final. [FinalParameters]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:32:34: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:32:34: Parameter val should be final. [FinalParameters]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:33:21: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:33:22: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:33:31: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:33:35: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:35:9: Class 'BinaryTree' looks like designed for extension (can be subclassed), but the method 'put' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BinaryTree' final or making the method 'put' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:35:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:35:25: Parameter node should be final. [FinalParameters]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:35:35: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:35:35: Parameter key should be final. [FinalParameters]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:35:44: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:35:44: Parameter val should be final. [FinalParameters]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:36:19: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:36:24: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:36:26: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:37:45: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:39:24: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:39:25: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:40:19: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:40:23: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:40:24: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:41:34: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:41:35: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:41:49: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:41:53: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:42:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:43:24: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:43:28: '>' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:43:29: '>' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:44:35: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:44:36: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:44:51: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:44:55: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:45:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:47:35: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:47:36: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:51:9: Class 'BinaryTree' looks like designed for extension (can be subclassed), but the method 'print' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BinaryTree' final or making the method 'print' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:51:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:51:27: Parameter temp should be final. [FinalParameters]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:52:19: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:52:24: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:52:26: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:54:52: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:54:53: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:54:56: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:54:57: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:57: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:59:9: Class 'BinaryTree' looks like designed for extension (can be subclassed), but the method 'get' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BinaryTree' final or making the method 'get' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:59:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:59:24: Parameter Key should be final. [FinalParameters]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:59:29: Name 'Key' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:60:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:61:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:61:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:62:22: 'while' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:62:27: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:62:29: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:63:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:64: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:64:27: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:64:61: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:64:62: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:65:37: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:65:38: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:66: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:66:32: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:66:66: '>' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:66:67: '>' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:67:37: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:67:38: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:68: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:70: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:74:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:74:33: Parameter args should be final. [FinalParameters]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:76:28: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:76:29: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:77:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:77:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:78:22: 'while' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:79:34: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:79:35: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:80:34: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:80:36: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:80:37: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:81:31: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:81:32: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:81:47: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:81:53: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:81:75: '3' is a magic number. [MagicNumber]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:82: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:84:63: '4' is a magic number. [MagicNumber]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:87: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:87:35: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:87:45: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:87:47: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:89: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\18031J0089_ADS1\18031j0089_ADS1\18031J0089\ADS-1\Module_16\16.1 BST\BinaryTree.java:94: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 144 errors.
+
+
+[master ebe418a] "check_style_score -> 3 of 3 passed. style score: 0/1 "
+ 22 files changed, 133 insertions(+)
+ create mode 100644 ADS-1/Module_16/16.1 BST/16.1. BinarySearchTree.docx
+ create mode 100644 ADS-1/Module_16/16.1 BST/BinaryTree.class
+ create mode 100644 ADS-1/Module_16/16.1 BST/BinaryTree.java
+ create mode 100644 ADS-1/Module_16/16.1 BST/Book.class
+ create mode 100644 ADS-1/Module_16/16.1 BST/Node.class
+ create mode 100644 ADS-1/Module_16/16.1 BST/md5/input000.txt
+ create mode 100644 ADS-1/Module_16/16.1 BST/md5/input001.txt
+ create mode 100644 ADS-1/Module_16/16.1 BST/md5/input002.txt
+ create mode 100644 ADS-1/Module_16/16.1 BST/md5/output000.txt
+ create mode 100644 ADS-1/Module_16/16.1 BST/md5/output001.txt
+ create mode 100644 ADS-1/Module_16/16.1 BST/md5/output002.txt
+ create mode 100644 ADS-1/Module_16/16.1 BST/md5/problem_id.txt
+ create mode 100644 ADS-1/Module_16/16.1 BST/md5/score.txt
+ create mode 100644 ADS-1/Module_16/16.1 BST/output.txt
+ create mode 100644 ADS-1/Module_16/16.1 BST/result/score.json
+ create mode 100644 ADS-1/Module_16/16.1 BST/testcases/input000.txt
+ create mode 100644 ADS-1/Module_16/16.1 BST/testcases/input001.txt
+ create mode 100644 ADS-1/Module_16/16.1 BST/testcases/input002.txt
+ create mode 100644 ADS-1/Module_16/16.1 BST/testcases/output000.txt
+ create mode 100644 ADS-1/Module_16/16.1 BST/testcases/output001.txt
+ create mode 100644 ADS-1/Module_16/16.1 BST/testcases/output002.txt
+ create mode 100644 ADS-1/Module_16/16.1 BST/testcases/problem_id.txt
+
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
