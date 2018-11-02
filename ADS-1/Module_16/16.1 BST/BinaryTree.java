@@ -27,7 +27,7 @@ class Node
 	}
 }
 
-public class ads1_m16_a1 {
+public class BinaryTree {
 	Node root;
 	public void put(Book key,int val) {
 		root=put(root,key,val);
@@ -74,7 +74,7 @@ public class ads1_m16_a1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner svn=new Scanner(System.in);
-		ads1_m16_a1 bt=new ads1_m16_a1();
+		BinaryTree bt=new BinaryTree();
 		while(svn.hasNext()) {
 			String s1=svn.nextLine();
 			String s2[]=s1.split(",");
