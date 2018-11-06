@@ -120,6 +120,7 @@ public class BinaryTree {
 			select(temp.left,sval);
 			if(indx==sval) {
 				System.out.println(temp.key);
+				indx++;
 				return;
 			}
 			indx++;
