@@ -212,7 +212,10 @@ public class BinaryTree {
 				bt.put(b, Integer.parseInt(s2[4]));
 				break;
 			case "get":
-				System.out.println(bt.get(b));
+				if(bt.get(b)!=0)
+					System.out.println(bt.get(b));
+				else
+				 	System.out.println("null");
 				break;
 			case "print":
 				bt.print(bt.root);
