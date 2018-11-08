@@ -1,0 +1,51 @@
+Answer the following questions on Separate Chaining Hash table for the keys and its hash values.
+Keys : S E A R C H E X A M P L E
+Hash : 2 0 0 4 4 4 0 2 0 4 3 3 0
+Note: If there are no keys write null, If there are multiple keys write keys with comma space separated
+
+1.For the index 0, Write the keys in ascending order.
+
+	A A C E E E H L M P R S X
+	0 0 4 0 0 0 4 3 4 3 4 2 2
+
+2.For the index 4, Write the keys in ascending order.
+
+	A C E E H L M P X 
+	0 4 0 0 4 3 4 3 2
+
+3.For the index 1, Write the keys in ascending order.
+
+	A  A C E E E H L M P R X
+	0  0 4 0 0 0 4 3 4 3 4 2
+
+4.For the index 2, Write the keys in ascending order.
+
+	A A C E E H L M P R X
+	0 0 4 0 0 4 3 4 3 4 2
+
+5.For the index 3, Write the keys in ascending order.
+
+	A C E E H L M P R X
+	0 4 0 0 4 3 4 3 4 2
+
+
+After Inserting elements 1, 32, 22, 15, 33, 45, 66, 73, 10. 
+How many collisions occur when you hashCode() as key % size after inserting keys into hashtable for given sizes below.
+
+1.Size = 7 
+
+ans:5
+
+2.Size = 8
+
+
+ans:3
+
+3.Size = 12
+
+ans:3
+
+
+4.Size = 1
+
+ans:8
